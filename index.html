@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos aleatorios</title>
+</head> 
+<body>
+    <h1>Gatos aleatorios</h1>
+    
+    <span id="error">hola mundo</span>
+
+    <section id="ramdomMichis">
+        <h2>Gatos App</h2>
+        
+        <article>
+            <img alt="" height="250" width="300" id="img1">        
+            <button id="btnSaveCat1" onclick="">Guardar en favoritos</button>
+        </article>
+        <article>
+            <img alt="" height="250" width="300" id="img2">        
+            <button id="btnSaveCat2" >Guardar en favoritos</button>
+        </article>
+      
+        
+        <button onclick="loadRamdomCats()">nueva</button>
+    </section>
+
+    <section id="uploadCat">
+        <h2>sube la foto de tu gato</h2>
+        <form id="uploadForm">
+            <input type="file" id="file" name="file">
+            <button type="button" onclick="uploadCatPhoto()">sube la foto de tu gato</button>
+        </form>
+
+    </section>
+
+    <h2>Gatos favoritos</h2>
+    <section id="favoriteCats">
+        
+        <img  alt="foto gato favorito" height="250" width="300" id="imgFavorito">
+        <button>Eliminar de favoritos</button>
+    </section>
+
+   
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
